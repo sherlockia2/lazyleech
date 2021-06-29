@@ -102,6 +102,8 @@ async def _upload_worker(client, message, reply, torrent_info, user_id, flags):
     if LICHER_CHAT and LICHER_STICKER and message.chat.id in ADMIN_CHATS:
         await client.send_sticker(LICHER_CHAT, LICHER_STICKER)
     asyncio.create_task(reply.edit_text(f'Download successful, files uploaded', disable_web_page_preview=True))
+    asyncio.create_task(await asyncio.sleep(5))
+    asyncio.create_task(reply.delete())
 
 async def _upload_file(client, message, reply, filename, filepath, force_document):
     if not os.path.getsize(filepath):
