@@ -11,7 +11,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from .. import app, ADMIN_CHATS, ForceDocumentFlag
 from .leech import initiate_torrent
 
-rsslink = ["https://nyaa.si/?page=rss&u=SmallSizedAnimations","https://nyaa.si/?page=rss&q=%5BSubsPlease%5D+Boku+no+Hero+Academia+480p&c=1_2&f=0", "https://nyaa.si/?page=rss&q=%5BSubsPlease%5D+one+piece+480p&c=1_2&f=0"]
+rsslink = ["https://nyaa.si/?page=rss&q=%5Bssa%5D+720p&c=1_2&f=0","https://nyaa.si/?page=rss&q=%5BSubsPlease%5D+Boku+no+Hero+Academia+480p&c=1_2&f=0", "https://nyaa.si/?page=rss&q=%5BSubsPlease%5D+one+piece+480p&c=1_2&f=0"]
 
 if os.environ.get('DB_URL'):
     DB_URL = os.environ.get('DB_URL')
