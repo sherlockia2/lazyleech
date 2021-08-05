@@ -2,6 +2,9 @@
 
 <p align="center">
 “	Heroku Supported Telegram Torrent Leeching Bot by Some Weebs ” 
+
+## More features on [personal-tweak](https://github.com/lostb053/lazyleech/tree/personal-tweak) branch
+
 </p>
 
 # Table of Content
